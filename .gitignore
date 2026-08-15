@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# BO outputs (run data, checkpoints, CSVs — too large for GitHub)
+ROBOT/
+bo_outputs*/
+run_*/
+*.pkl
+
+# RL training outputs
+rl_outputs*/
+runs/
+checkpoints/
+*.pt
+*.pth
+
+# Plots generated at runtime
+# (keep only committed results in media/ or docs/)
+
+# Git
+*.orig
